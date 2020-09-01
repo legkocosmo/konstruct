@@ -234,7 +234,15 @@ li {
   bottom: 15px;
 }
 
+.service__desc-block {
+  display: flex;
+  align-items: center;
+}
+
 .service__desc {
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
   max-width: 400px;
   width: 100%;
   margin: 0 20px;
