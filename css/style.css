@@ -35,9 +35,15 @@ li {
 
 .btn {
   background: transparent;
-  border: none;
+  border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+.btn:hover {
+  color: #00a4e5;
+  background: #f5f8fd;
+  border: 2px solid #00a4e5;
 }
 
 .pos-rel {
@@ -46,7 +52,7 @@ li {
 
 /*header*/
 .bg__header {
-  background: url(../img/bg-header.png) no-repeat center/cover;
+  background: url(../img/bg-header.jpg) no-repeat center/cover;
   width: 100%;
   height: 100vh;
   color: #ffffff;
@@ -271,4 +277,61 @@ li {
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.19px;
+}
+
+.service__block-all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+/*touch*/
+.bg__touch {
+  background: url(../img/bg-section.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.touch__title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: none;
+  /* margin-top: 120px; */
+  margin: 0 auto 45px;
+  max-width: 350px;
+  width: 100%;
+}
+
+/*newsletter*/
+.bg__newsletter {
+  background: #171819;
+}
+
+.newsletter__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  color: #ffffff;
+}
+
+.newsletter__title {
+  margin-right: 70px;
+}
+
+.newsletter__form {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #979797;
 }
