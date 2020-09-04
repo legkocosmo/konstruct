@@ -97,11 +97,21 @@ li {
 }
 
 .header__scroll {
+  color: #ffffff;
+  opacity: .7;
   font-weight: 600;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 3.7px;
+  border: none;
+}
+
+.header__scroll:hover {
+opacity: 1;
+border: none;
+background: transparent;
+color: #ffffff;
 }
 
 /* header__nav-block */
